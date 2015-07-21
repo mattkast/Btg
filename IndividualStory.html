@@ -1,0 +1,228 @@
+<ul class="cbp_tmtimeline">
+	<li>
+		<time class="cbp_tmtime" datetime="2013-04-10 18:30"><span></span> <span>Day 1</span></time>
+		<div class="cbp_tmicon cbp_tmicon-phone"></div>
+		<div class="cbp_tmlabel">
+			<h2>Intro to Books That Grow</h2>
+			<p>When Jessica reached out to the English Language Learning community in her new neighborhood of Queens, NY, they refered her to a new and innovative producat called Books That Grow. It allowed Jessica to read at a level that was easier for her to comprehend and she was hooked from the first leveled sentence.  </p>
+		</div>
+	</li>
+	<li>
+		<time class="cbp_tmtime" datetime="2013-04-11T12:04"><span></span> <span>Day 14</span></time>
+		<div class="cbp_tmicon cbp_tmicon-screen"></div>
+		<div class="cbp_tmlabel">
+			<h2>Gaining Momentum</h2>
+			<p>Jessica had started reading books at Level 2 and 3 but after just two weeks she started to revisit those books and challenege herself with higher levers like 4, 5, and occasionally even 6. Using Books That Grow's define and pronounce features she was able to begin to learn new words she hadn't known before. </p>
+		</div>
+	</li>
+	<li>
+		<time class="cbp_tmtime" datetime="2013-04-13 05:36"><span></span> <span>Day 30</span></time>
+		<div class="cbp_tmicon cbp_tmicon-mail"></div>
+		<div class="cbp_tmlabel">
+			<h2>Using New Knowlege</h2>
+			<p>By day 30, Jessica was able to gain another level in most of Books That Grows texts and also start really understanding the meaning of the texts she was reading. She started to use new vocabulary words learned in books in conversation and found herself becoming a better writer as well as becoming a strong, independent reader. </p>
+		</div>
+	</li>
+	
+	<li>
+		<time class="cbp_tmtime" datetime="2013-04-16 21:30"><span></span> <span>Day 90</span></time>
+		<div class="cbp_tmicon cbp_tmicon-earth"></div>
+		<div class="cbp_tmlabel">
+			<h2>The Prize</h2>
+			<p>After a full three months of using Books That Grow, Jessica was able to pass the TOEFL and gain entry to the University she had wanted so badly to go to. Jessica also learned valuable insights on American culture and history through various texts she was able to read with the product. </p>
+		</div>
+	</li>
+</ul> 
+
+<style> 
+
+
+.cbp_tmtimeline {
+	margin: 30px 0 0 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+} 
+
+/* The line */
+.cbp_tmtimeline:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 10px;
+	background: #00ab98;
+	left: 20%;
+	margin-left: -10px;
+}
+
+.cbp_tmtimeline > li {
+	position: relative;
+  	margin-top: 40px; 
+}
+
+/* The date/time */
+.cbp_tmtimeline > li .cbp_tmtime {
+	display: block;
+	width: 25%;
+	padding-right: 100px;
+  	margin:0px; 
+	position: absolute;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span {
+	display: block;
+	text-align: right;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span:first-child {
+	font-size: 0.9em;
+	color: #f44200;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span:last-child {
+	font-size: 2.9em;
+	color: #ff4200;
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
+	color: #00ab98;
+}
+
+/* Right content */
+.cbp_tmtimeline > li .cbp_tmlabel {
+	margin: 0 0 15px 25%;
+	background: #ffc096;
+	color: #fff;
+	padding: 2em;
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 1.4;
+	position: relative;
+	border-radius: 10px;
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
+	background: #7fd5cb;
+}
+
+.cbp_tmtimeline > li .cbp_tmlabel h2 { 
+	margin-top: 0px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+/* The triangle */
+.cbp_tmtimeline > li .cbp_tmlabel:after {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-right-color: #ffc096;
+	border-width: 10px;
+	top: 10px;
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
+	border-right-color: #7fd5cb;
+}
+
+/* The icons */
+.cbp_tmtimeline > li .cbp_tmicon {
+	width: 40px;
+	height: 40px;
+	font-family: 'ecoico';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	font-size: 1.4em;
+	line-height: 40px;
+	-webkit-font-smoothing: antialiased;
+	position: absolute;
+	color: #fff;
+	background: #00ab98;
+	border-radius: 50%;
+	box-shadow: 0 0 0 8px #7fd5cb;
+	text-align: center;
+	left: 20%;
+	top: 0;
+	margin: 0 0 0 -25px;
+}
+
+.cbp_tmicon-phone:before {
+	content: "\f02d";
+  font-family: FontAwesome;
+}
+
+.cbp_tmicon-screen:before {
+	content: "\f062";
+  font-family: FontAwesome;
+}
+
+.cbp_tmicon-mail:before {
+	content: "\f086";
+  font-family: FontAwesome;
+}
+
+.cbp_tmicon-earth:before {
+	content: "\f118";
+  font-family: FontAwesome;
+}
+
+/* Example Media Queries */
+@media screen and (max-width: 65.375em) {
+
+	.cbp_tmtimeline > li .cbp_tmtime span:last-child {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 47.2em) {
+	.cbp_tmtimeline:before {
+		display: none;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmtime {
+		width: 100%;
+		position: relative;
+		padding: 0 0 20px 0;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmtime span {
+		text-align: left;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmlabel {
+		margin: 0 0 30px 0;
+		padding: 1em;
+		font-weight: 400;
+		font-size: 95%;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmlabel:after {
+		right: auto;
+		left: 20px;
+		border-right-color: transparent;
+		border-bottom-color:#ffc096 ;
+		top: -20px;
+	}
+
+	.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
+		border-right-color: transparent;
+		border-bottom-color:#7fd5cb;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmicon {
+		position: relative;
+		float: right;
+		left: auto;
+		margin: -55px 5px 0 0px;
+	}	
+}
+
+</style>
